@@ -10,14 +10,30 @@ var questionIndex = 0;
 var questions = [
   {
     question: "What is HTML?",
-    choices: ["hey", "hi", "yo", "sup"],
-    answer: "hey",
+    choices: [
+      "Hypertext Markup Language",
+      "Cascading Style Sheet",
+      "Computer",
+      "sup",
+    ],
+    answer: "Hypertext Markup Language",
   },
 
   {
     question: "What is CSS?",
-    choices: ["blue", "green", "red", "black"],
-    answer: "green",
+    choices: ["Cascading Style Sheet", "color", "red", "black"],
+    answer: "Cascading Style Sheet",
+  },
+
+  {
+    question: "What does JSON stand for?",
+    choices: [
+      "JavaScript Object Notation",
+      "JavaScript Oh No",
+      "HTML",
+      "JQuery",
+    ],
+    answer: "JavaScript Object Notation",
   },
 ];
 function displayQuestions() {
