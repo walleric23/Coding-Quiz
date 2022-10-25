@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <!-- class for the timer -->
     <p class="timer"></p>
+    <!-- class for pre-quiz -->
     <div class="start-area">
       <h1>So You Think You Can Code?</h1>
       <p>
         Press the button to begin the quiz and test your knowledge in this brief
         quiz
       </p>
-
+      <!-- button to start the quiz -->
       <button class="startQuiz">Begin Quiz!</button>
     </div>
-
+    <!-- container for question and answers -->
     <div class="quiz-area">
       <p class="questionText">What is HTML?</p>
       <button class="answer1"></button>
@@ -25,11 +27,15 @@
       <button class="answer3"></button>
       <button class="answer4"></button>
     </div>
+    <!-- current score -->
     <div class="scores">
+      <!-- stored highscores -->
       <p class="highscores"></p>
+      <!-- enter initials before submitting score -->
       <input class="initials" type="text" />
       <button class="submit">submit</button>
     </div>
+    <!-- displayed highscores -->
     <div class="old-scores">highscores</div>
     <script src="./script.js"></script>
   </body>
